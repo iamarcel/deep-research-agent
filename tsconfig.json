@@ -10,6 +10,7 @@
     "types": ["node"],
 
     "rootDir": "./src",
+    "outDir": "./.output",
 
     "strict": true,
     "noFallthroughCasesInSwitch": true,
