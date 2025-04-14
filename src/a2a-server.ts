@@ -198,7 +198,7 @@ const serverOptions: A2AServerOptions = {
 const server = new A2AServer(deepResearchAgent, serverOptions);
 
 // 3. Start the Server
-const port = 41241;
+const port = Number(process.env["PORT"]) || 41241;
 console.log(`Starting custom A2A server on port ${port}...`);
 
 serve(
